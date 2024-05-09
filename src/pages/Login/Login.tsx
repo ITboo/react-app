@@ -1,7 +1,6 @@
 import { ChangeEvent, useState } from "react";
 import styles from "./Login.module.css";
-import { Input } from "../../common";
-import Button from "../../common/buttons/Button/Button";
+import { Input, Button, Checkbox } from "../../common";
 
 const Login = () => {
   const [formValues, setFormValues] = useState({ username: "", password: "" });
@@ -32,8 +31,10 @@ const Login = () => {
               }
             />
           </div>
+          <Checkbox label="This is not my device" />
           <Button>Sign in</Button>
-        </div>
+        </div>      
+        <span>Create a new account</span>
       </div>
     </div>
   );

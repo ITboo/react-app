@@ -11,7 +11,7 @@ input::placeholder {
   color: gray;
 }
 
-.input__container {
+.container {
   display: flex;
   flex-direction: column;
 }
@@ -23,5 +23,5 @@ input::placeholder {
   font-size: 12px;
   color: red;
   line-height: 14px;
-  margin-left: 10px;
+  padding-left: 10px;
 }
